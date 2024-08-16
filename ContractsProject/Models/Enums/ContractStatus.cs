@@ -1,7 +1,7 @@
 ﻿namespace ContractsProject.Models.Enums;
 
 //Перечисление статусов договора
-public enum ContractStatuses
+public enum ContractStatus
 {
     Invalid = 0, //Расторгнут
     Valid = 1 //Действителен

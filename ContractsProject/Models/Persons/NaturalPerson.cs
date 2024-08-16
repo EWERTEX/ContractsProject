@@ -21,5 +21,5 @@ public class NaturalPerson
     //public int Age {get; set;} 
     
     public DateOnly Birthdate { get; set; } //Дата рождения
-    public Genders Gender { get; set; } //Пол
+    public Gender Gender { get; set; } //Пол
 }

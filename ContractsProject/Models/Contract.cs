@@ -10,6 +10,6 @@ public class Contract
     public LegalPerson Counterparty { get; set; } = new(); //Контрагент
     public NaturalPerson AuthorizedPerson { get; set; } = new(); //Уполномоченное лицо
     public decimal ContractSum { get; set; } //Сумма договора
-    public ContractStatuses Status { get; set; } //Статус
+    public ContractStatus Status { get; set; } //Статус
     public DateOnly DateOfSigning { get; set; } //Дата подписания
 }
